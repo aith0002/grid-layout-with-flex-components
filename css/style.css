@@ -1,0 +1,76 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f3f3f3;
+    padding: 5px;
+}
+
+/* TITLE */
+.siteheader h1{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* GRID LAYOUT */
+.emojis{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+/* CARD */
+.emoji{
+    border: 1px solid #444;
+    border-radius: 10px;
+    padding: 16px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* EMOJI ICON */
+.icon{
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* TITLE CARD */
+.emoji h2{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+/* PARAGRAPH */
+.emoji p{
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+/* BUTTON */
+.emoji a{
+    margin-top: auto;
+
+    text-decoration: none;
+    background-color: #7d3cb5;
+    color: white;
+
+    padding: 15px;
+    border-radius: 8px;
+
+    font-weight: bold;
+}
+
+/* BUTTON HOVER */
+.emoji a:hover{
+    background-color: #682fa0;
+}
